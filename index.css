@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 575px;
+    height: auto;
+    background-color: #1B244A;
+    display: flex;
+    justify-content: space-around;
+}
+
+h3{
+    font-size: 40px;
+    color: #EEEEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 70px auto 20px;
+}
+
+.score-points{
+    text-align: center;
+    width: 155px;
+    height: 120px;
+    background-color: black;
+    margin: 0px;
+}
+
+h4{
+    height: 100%;
+    font-size: 90px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    color: #F94F6D;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#addPoints{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    width: 155px;
+    justify-content: space-between;
+}
+
+#addPoints > button{
+    margin: 25px 0px 70px;
+    padding: 8px;
+    background-color: #1B244A;
+    color: #9AABD8;
+    font-size: 18px;
+    font-family: 'Orbitron', sans-serif;
+    border: 1px solid #9AABD8;
+    border-radius: 6px
+}
+
+.new-btn{
+    width:575px;
+}
+
+#new-game{
+    width: 150px;
+    display: block;
+    margin: -47px auto;
+    padding: 10px;
+    background-color: #F94F6D;
+    color: black;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 18px;
+    border: 1px solid #9AABD8;
+    border-radius: 40px
+}

@@ -1,0 +1,46 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <style>
+            <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Orbitron:wght@400;800&display=swap" rel="stylesheet">
+        </style>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <div class="score-points">
+                    <h4 id="home-score">0</h4>
+                </div>
+                
+                <div id="addPoints">
+                    <button onclick="plusOne()">+1</button>
+                    <button onclick="plusTwo()">+2</button>
+                    <button onclick="plusThree()">+3</button>
+                </div>
+                
+            </div>
+            
+            <div>
+                <h3>GUEST</h3>
+                <div class="score-points">
+                    <h4 id="guest-score">0</h4>
+                </div>
+                
+                <div id="addPoints">
+                    <button onclick="plusOneB()">+1</button>
+                    <button onclick="plusTwoB()">+2</button>
+                    <button onclick="plusThreeB()">+3</button>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+        <div class="new-btn">
+            <button id="new-game" onclick="newGame()">NEW GAME</button>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
